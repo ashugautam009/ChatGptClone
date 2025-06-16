@@ -8,9 +8,9 @@ const Answer = ({ ans }) => {
   return (
     <>
       {isHeading ? (
-        <p className="text-blue-400 font-semibold text-lg">{displayText}</p>
+        <p className="text-white font-bold text-lg">{displayText}</p>
       ) : (
-        <p className="text-base text-zinc-200 pl-5">{displayText}</p>
+        <p className="text-zinc-300 pl-5">{displayText}</p>
       )}
     </>
   )
